@@ -1,4 +1,4 @@
-import { StyledButton } from "./styles";
+import { StyledButton } from './styles';
 
 export interface IButtonProps {
   color: string;

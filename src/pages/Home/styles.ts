@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -12,7 +12,7 @@ export const Box = styled.div`
   width: 35%;
 `;
 export const Tokens = styled.div`
-color: white;
+  color: white;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -24,17 +24,13 @@ export const TokenTable = styled.table`
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
-
 `;
 export const TableRow = styled.tr`
   display: flex;
   width: 100%;
   justify-content: space-between;
-
 `;
-export const TableHead= styled.th`
+export const TableHead = styled.th`
   display: flex;
   align-items: center;
-
 `;
-

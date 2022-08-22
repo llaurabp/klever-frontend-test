@@ -1,8 +1,8 @@
-import styled from "styled-components";
-import { FormType } from "../../types";
+import styled from 'styled-components';
+import { FormType } from '../../types';
 
 export const Input = styled.input`
-display: block;
+  display: block;
   width: 34rem;
   height: 1.8rem;
   border-radius: 3px;
@@ -14,18 +14,17 @@ display: block;
 `;
 
 export const Label = styled.label`
-display: block;
+  display: block;
   border: none;
   font-weight: 600;
   text-align: left;
   padding: 1rem 0;
   color: white;
-
 `;
 
 export const Container = styled.div`
   height: 80%;
- display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
 `;
@@ -36,6 +35,6 @@ type TokenForm = {
 export const ButtonsGroup = styled.div<TokenForm>`
   display: flex;
   width: 100%;
-  justify-content: ${props => props.type === FormType.EditToken ? "space-between" : "flex-end"};
-
+  justify-content: ${props =>
+    props.type === FormType.EditToken ? 'space-between' : 'flex-end'};
 `;

@@ -1,11 +1,10 @@
+import { useNavigate } from 'react-router-dom';
 
-import { useNavigate } from "react-router-dom";
-
-import Button from "../../components/Button";
-import HeaderComponent from "../../components/Header";
-import TokenForm from "../../components/TokenForm";
-import { FormType } from "../../types";
-import { Box, Container, Text } from "./styles";
+import Button from '../../components/Button';
+import HeaderComponent from '../../components/Header';
+import TokenForm from '../../components/TokenForm';
+import { FormType } from '../../types';
+import { Box, Container, Text } from './styles';
 
 export interface IToken {
   token: string;
@@ -20,14 +19,15 @@ export default function AddToken() {
       <Box>
         <Text>Add Token</Text>
         <Button
-          backgroundColor='grey'
-          color='white'
-          content='Back'
-          onClick={() => { navigate('/') }}
+          backgroundColor="grey"
+          color="white"
+          content="Back"
+          onClick={() => {
+            navigate('/');
+          }}
         />
       </Box>
       <TokenForm type={FormType.AddToken} />
     </Container>
-
   );
 }

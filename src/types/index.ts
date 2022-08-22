@@ -1,4 +1,4 @@
 export enum FormType {
-AddToken = 'AddToken',
-EditToken = 'EditToken',
+  AddToken = 'AddToken',
+  EditToken = 'EditToken',
 }

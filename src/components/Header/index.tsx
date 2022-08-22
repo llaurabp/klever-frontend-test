@@ -1,6 +1,6 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 import logo from '../../assets/logo.svg';
-import shootingStar from "../../assets/shooting-star.svg";
+import shootingStar from '../../assets/shooting-star.svg';
 import Button from '../Button';
 import { HeaderBox, HeaderContainer, Image, Logo, WishWallet } from './styles';
 
@@ -24,14 +24,13 @@ function HeaderComponent(props: IHeaderProps) {
             backgroundColor="#AA33B5"
             color="white"
             content="Add Token"
-            onClick={() => { navigate('/add-token') }}
+            onClick={() => {
+              navigate('/add-token');
+            }}
           ></Button>
         )}
       </HeaderBox>
     </HeaderContainer>
-
-
-
   );
 }
 

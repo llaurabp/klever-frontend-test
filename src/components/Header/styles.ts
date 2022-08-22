@@ -1,16 +1,16 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const HeaderContainer = styled.div`
-width: 50%;
-display: flex;
-flex-direction: column;
-align-items: center;
-background-color: #13152a;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #13152a;
 `;
 
 export const HeaderBox = styled.div`
- display: flex;
- width: 70%;
+  display: flex;
+  width: 70%;
   align-items: center;
   background-color: #13152a;
   justify-content: space-between;
@@ -30,7 +30,6 @@ export const WishWallet = styled.div`
 
 export const Image = styled.img`
   width: 10%;
-  margin-right: .5rem;
+  margin-right: 0.5rem;
   height: auto;
-
 `;

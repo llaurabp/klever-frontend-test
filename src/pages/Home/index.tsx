@@ -1,9 +1,16 @@
 import { TbEdit } from 'react-icons/tb';
-import { useNavigate } from "react-router-dom";
-import HeaderComponent from "../../components/Header";
-import { IToken } from "../AddToken";
-import { Box, Container, TableHead, TableRow, Tokens, TokenTable } from "./styles";
-import "./styles.ts";
+import { useNavigate } from 'react-router-dom';
+import HeaderComponent from '../../components/Header';
+import { IToken } from '../AddToken';
+import {
+  Box,
+  Container,
+  TableHead,
+  TableRow,
+  Tokens,
+  TokenTable,
+} from './styles';
+import './styles.ts';
 
 export function getTokens() {
   const tokens = localStorage.getItem('tokens');
@@ -31,7 +38,11 @@ export default function Home() {
             <TokenTable>
               <TableRow>
                 <TableHead>
-                  <TbEdit cursor='pointer' size={32} onClick={() => navigate(`/edit-token/${token.token}`)} />
+                  <TbEdit
+                    cursor="pointer"
+                    size={32}
+                    onClick={() => navigate(`/edit-token/${token.token}`)}
+                  />
                   <h1> {token.token}</h1>
                 </TableHead>
                 <TableHead>

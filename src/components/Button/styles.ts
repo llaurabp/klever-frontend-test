@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 type Button = {
   color: string;
@@ -6,10 +6,10 @@ type Button = {
 };
 
 export const StyledButton = styled.button<Button>`
-    display: inline-block;
-    cursor: pointer;
-  background-color: ${props => props.backgroundColor };
-  color: ${props => props.color };
+  display: inline-block;
+  cursor: pointer;
+  background-color: ${props => props.backgroundColor};
+  color: ${props => props.color};
   min-width: 8rem;
   width: fit-content;
   height: fit-content;
@@ -20,7 +20,7 @@ export const StyledButton = styled.button<Button>`
   border-radius: 5px;
   border: none;
   :hover {
-  filter:brightness(0.8) ;
+    filter: brightness(0.8);
   }
   transition: 100ms ease-in-out;
 `;
