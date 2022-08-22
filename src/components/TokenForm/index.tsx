@@ -45,7 +45,7 @@ export default function TokenForm(props: ITokenFormProps) {
       tokens[index] = token;
       localStorage.setItem('tokens', JSON.stringify(tokens));
       navigate('/');
-      toast.success('Token atualizado com sucesso');
+      toast.success('Successfully updated token!');
     } catch (err: any) {
       toast.error(err.message);
     }
@@ -82,7 +82,7 @@ export default function TokenForm(props: ITokenFormProps) {
       });
       localStorage.setItem('tokens', JSON.stringify(tokens));
       navigate('/');
-      toast.success('Token criado com sucesso');
+      toast.success('Successfully created token!');
     } catch (err: any) {
       toast.error(err.message);
     }
@@ -95,7 +95,7 @@ export default function TokenForm(props: ITokenFormProps) {
       tokens = tokens.filter((item: IToken) => item.token !== token.token);
       localStorage.setItem('tokens', JSON.stringify(tokens));
       navigate('/');
-      toast.success('Token removido com sucesso');
+      toast.success('Successfully deleted token!');
     } catch (err: any) {
       toast.error(err.message);
     }

@@ -22,7 +22,7 @@ export default function AddToken() {
         <Button
           backgroundColor='grey'
           color='white'
-          content='Voltar'
+          content='Back'
           onClick={() => { navigate('/') }}
         />
       </Box>

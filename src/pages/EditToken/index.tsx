@@ -26,7 +26,7 @@ export default function EditToken() {
         <Button
           backgroundColor='grey'
           color='white'
-          content='Voltar'
+          content='Back'
           onClick={() => { navigate('/') }}
         />
       </InnerContainer>
