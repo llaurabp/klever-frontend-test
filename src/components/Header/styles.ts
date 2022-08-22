@@ -34,8 +34,3 @@ export const Image = styled.img`
   height: auto;
 
 `;
-
-export const ImageAndTitle = styled.img`
-display: flex;
-flex-direction: row;
-`;

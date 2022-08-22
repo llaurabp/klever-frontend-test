@@ -9,42 +9,10 @@ export const Container = styled.div`
 
 `;
 
-export const Logo = styled.img`
-  width: 10%;
-  padding: 3rem;
-  height: auto;
-`;
-
-
-export const Image = styled.img`
-  width: 10%;
-  height: auto;
-`;
-
-export const Title = styled.div``;
-
-export const Header = styled.div`
-  display: flex;
-  width: auto;
-  flex-direction: row;
-`;
-
-
 export const Text = styled.text`
   color: white;
   font-weight: 700;
   font-size: 1.7rem;
-`;
-
-
-
-export const Tokens = styled.div`
-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: left;
-
 `;
 
 export const Box = styled.div`
@@ -53,20 +21,4 @@ export const Box = styled.div`
   align-items: center;
   width: 34rem;
   max-width: 90%;
-
-
-`;
-
-export const Token = styled.div`
-  display: flex;
- 
-  align-items: center;
-  justify-content: left;
-  flex-direction: row;
-`;
-
-
-export const Input = styled.input`
-  width: 100%;
-
 `;

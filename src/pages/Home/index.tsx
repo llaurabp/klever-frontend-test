@@ -15,7 +15,6 @@ export function getTokens() {
 export default function Home() {
   const navigate = useNavigate();
   return (
-
     <Container>
       <HeaderComponent hasAddButton={true}></HeaderComponent>
       <Box>
